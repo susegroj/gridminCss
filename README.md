@@ -10,7 +10,7 @@ Example
     <div class="col-12 xs6 ">This column worth 12 but in small resolution worth 6</div>
     <div class="col-12 s-h ">This column worth 12 but disappear in mobile resolution</div>
   </div>
-
+```
 See? Simple!
 
 # Row & Column

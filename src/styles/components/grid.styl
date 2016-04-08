@@ -1,0 +1,87 @@
+/***Grid system file***/
+
+/*Main classes*/
+.reverse
+    backwards()
+.column
+    flex('col')
+.row
+   flex('row')
+.hide
+    display none
+.show
+    display block
+
+
+/*Desktop resolution*/    
+[class*="col-"]
+    for n in (1..12)
+        &.col-{n}
+            flex-basis percent(n)
+
+[class*="push-"],[class*="pull-"],
+[class*="mpush-"],[class*="mpull-"],
+[class*="spush-"],[class*="spull-"],
+[class*="xspush-"],[class*="xspull-"]
+    position relative
+    for n in (1..12)
+        &.pull-{n}
+            right percent(n)
+        &.push-{n}
+            left percent(n)
+[class*="off-"]
+    for n in (1..12)
+        &.off-{n}
+            margin-left percent(n)
+
+/*Tablet resolution*/
+@media screen and (max-width:720px)
+    [class*="m"]
+        for n in (1..12)
+            &.m{n}
+                flex-basis percent(n)
+            &.m-h
+                display none !important
+            &.m-s
+                display block !important
+            &.mpull-{n}
+                right percent(n)
+            &.mpush-{n}
+                left percent(n)
+            &.moff-{n}
+                margin-left percent(n)
+
+
+/*Mobile resolution*/
+@media screen and (max-width:480px)
+    [class*="s"]
+        for n in (1..12)
+            &.s{n}
+                flex-basis percent(n)
+            &.s-h
+                display none !important
+            &.s-s
+                display block !important
+            &.spull-{n}
+                right percent(n)
+            &.spush-{n}
+                left percent(n)
+            &.soff-{n}
+                margin-left percent(n)
+
+/*Very small resolution*/
+@media screen and (max-width:320px)
+    [class*="xs"]
+        for n in (1..12)
+            &.xs{n}
+                flex-basis percent(n)
+            &.xs-h
+                display none !important
+            &.xs-s
+                display block !important
+            &.xspull-{n}
+                right percent(n)
+            &.xspush-{n}
+                left percent(n)
+            &.xsoff-{n}
+                margin-left percent(n)

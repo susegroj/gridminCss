@@ -1,0 +1,35 @@
+{
+  "name": "gridminCss",
+  "version": "0.1.0",
+  "description": "GridminCSS is a very simple but powerfull grid responsive system. Take a look and save development time",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords":[
+    "css",
+    "responsive",
+    "grid",
+    "stylus"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/susegroj/gridminCss.git"
+  },
+  "author": "Ing. Jorge de Jesús Macías Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susegroj/gridminCss/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.3.1",
+    "gulp-webserver": "^0.9.1",
+    "nib": "^1.1.0"
+  },
+  "dependencies": {
+    "normalize.styl": "^3.0.3"
+  }
+}

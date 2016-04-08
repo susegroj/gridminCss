@@ -1,0 +1,22 @@
+/***Functions File***/
+
+/*Row and Column Classes*/
+flex(dir)
+    if dir == "row"
+        flex-flow row wrap
+    if dir == "col"
+        flex-flow column wrap
+    box-sizing border-box
+    display flex
+    flex 0 1 auto
+
+/*Setting width*/
+percent(n)
+    return ((n*100)/12) %
+
+/*Reverse Row or Column (Be careful)*/
+backwards()
+    &.row
+        flex-direction row-reverse
+    &.column
+        flex-direction column-reverse

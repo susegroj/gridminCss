@@ -4,7 +4,7 @@ A powerfull responsive grid system, pure css. The gridminCss grid sistem is base
 It's so simple to use it, you just have to create your html tag and add the gridminCss class as you wish and play with them.
 
 Example
-
+```html
   <div class="row">
     <div class="col-6 xs12 ">This column worth 6 but 12 in small resolutions</div>
     <div class="col-12 xs6 ">This column worth 12 but in small resolution worth 6</div>

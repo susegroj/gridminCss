@@ -80,7 +80,7 @@ There are three more break points and you can make responsive using a simple cla
 
 **720px and above** |**720px and below** |**480px and below**|**320px and below**|
 --------------------|--------------------|-------------------|-------------------|
-      col-n         |         m-n        |s-n                |xs-n               |
+      col-n         |         mn         |sn                 |xsn                |
       off-n         |        moff-n      |soff-n             |xsoff-n            |
       push-n        |       mpush-n      |spush-n            |xspush-n           |
       pull-n        |       mpull-n      |spull-n            |xspull-n           |

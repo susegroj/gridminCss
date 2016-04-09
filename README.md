@@ -14,7 +14,7 @@ Example
 You see? It's simple!
 
 ##Installation###
-npm install
+npm install gridminCss
 
 ## Row & Column ##
 There are two container classes, the first one is **row**. This class going to make your container as a responsive one and it'll organize the elements inside it in horizontal way. On the other hand **column** is used to stack the elements in a vertical way. Let's some examples below:

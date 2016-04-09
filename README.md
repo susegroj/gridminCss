@@ -92,12 +92,26 @@ There are three more break points and you can make responsive using a simple cla
 ##Aligments##
 The aligments are, as it's name say, to align the elements, there are 3 sorts
 
-Justify Content        |Align Items   |Align Self  |
----------------------- |--------------|------------|
-center | center        |
-end   | flex end       |
-start | flex start     | 
-space-btw|space between|
-space-a|space around   |
+Justify Content        |Position     |
+-----------------------|-------------|
+center                 | center      |
+end                    | flex end    |
+start                  | flex start  |
+space-btw              |space between|
+space-a                |space around |
 
+Aling Items |Position    |
+------------|------------|
+ai-middle   | center     |
+ai-bottom   | flex end   |
+ai-top      |flex start  |
+ai-stretch  | stretch    |
+ai-baseline | baseline   |
 
+Aling Selfs |Position    |
+------------|------------|
+as-middle   | center     |
+as-bottom   | flex end   |
+as-top      |flex start  |
+as-stretch  | stretch    |
+as-baseline | baseline   |

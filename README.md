@@ -44,6 +44,7 @@ Note: When you use **row** but all your elements inside are 100% width, the cont
 These classes are basically to set the width lenght. This is for the main screen resolution. It's important to know that, if you don't use any break point, the elements always gonna occupy the same value. As it's mentioned previously, there are 12 differents column sizes.
 
 For instance:
+
 <pre>
   <code>
       <aside class="row">
